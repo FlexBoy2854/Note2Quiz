@@ -1,0 +1,350 @@
+MCQs
+Q1: What is the primary difference between traditional programming and machine learning?  
+"A) Traditional programming uses data only, ML uses rules only  "
+"B) Traditional programming uses rules and data to get output, ML uses data and output to learn rules  "
+"C) Traditional programming learns by itself, ML requires explicit programming  "
+D) Traditional programming and ML are the same  
+Correct Answer: B  
+""
+"Q2: According to Tom Mitchell, when is a computer program said to learn?  "
+A) When it is explicitly programmed for each task  
+B) When it can solve any problem without prior data  
+C) If its performance improves with experience on tasks measured by a performance measure  
+D) When it mimics human intelligence exactly  
+Correct Answer: C  
+""
+Q3: Which of the following is NOT a key component of machine learning?  
+A) Data  
+B) Features  
+C) Random guessing  
+D) Model  
+Correct Answer: C  
+""
+Q4: Which of the following algorithms is mainly used for regression problems?  
+A) Support Vector Classifiers  
+B) Decision Trees  
+C) Linear Regression  
+D) K-means clustering  
+Correct Answer: C  
+""
+Q5: What kind of data does supervised learning require?  
+A) Unlabeled data  
+B) Labeled data  
+C) No data at all  
+D) Any input data with unknown output  
+Correct Answer: B  
+""
+"Q6: In supervised learning, what are the known outputs in the training data called?  "
+A) Features  
+B) Inputs  
+C) Labels  
+D) Models  
+Correct Answer: C  
+""
+Q7: Classification problems in supervised learning deal with:  
+A) Predicting continuous variables  
+B) Grouping unlabeled data  
+C) Predicting discrete labels or categories  
+D) Finding rules in data without outputs  
+Correct Answer: C  
+""
+Q8: Which of the following is an example of unsupervised learning?  
+A) Linear Regression  
+B) Support Vector Machine  
+C) K-means clustering  
+D) Logistic Regression  
+Correct Answer: C  
+""
+"Q9: In unsupervised learning, data is:  "
+A) Always labeled  
+B) Divided into categories beforehand  
+C) Not labeled and no correct answers exist  
+D) Used only for classification tasks  
+Correct Answer: C  
+""
+Q10: What is the primary goal of reinforcement learning algorithms?  
+A) To perform clustering  
+B) To maximize prediction accuracy with labeled data  
+C) To learn policies based on trial and error by interacting with an environment  
+D) To reduce continuous variables  
+Correct Answer: C  
+""
+Q11: Which algorithm below is a reinforcement learning example?  
+A) Markov Decision Process  
+B) Linear Regression  
+C) K-nearest neighbor  
+D) Apriori algorithm  
+Correct Answer: A  
+""
+Q12: What kind of relationship does linear regression assume between input variables (x) and output (y)?  
+A) Exponential  
+B) Linear  
+C) Quadratic  
+D) Logarithmic  
+Correct Answer: B  
+""
+Q13: Multiple linear regression uses how many independent variables?  
+A) One only  
+B) Exactly two only  
+C) Two or more  
+D) None  
+Correct Answer: C  
+""
+Q14: Which of these applications uses logistic regression?  
+A) Predicting the price of a house  
+B) Spam detection (spam or not spam)  
+C) Clustering customers by purchase behavior  
+D) Predictive maintenance of machines  
+Correct Answer: B  
+""
+Q15: Logistic regression outputs:  
+A) Continuous numeric values  
+B) Probabilities between 0 and 1  
+C) Only discrete labels with no probability  
+D) Raw data without transformation  
+Correct Answer: B  
+""
+Q16: The Support Vector Machine (SVM) algorithm aims to:  
+A) Find any separating line between classes  
+B) Maximize the margin between classes  
+C) Minimize the margin between classes  
+D) Predict continuous values  
+Correct Answer: B  
+""
+Q17: What are the closest data points to the hyperplane in SVM called?  
+A) Clusters  
+B) Centroids  
+C) Support vectors  
+D) Outliers  
+Correct Answer: C  
+""
+"Q18: In a soft margin SVM, what does the parameter C control?  "
+A) The size of the dataset  
+B) The tolerance to misclassification  
+C) The number of features  
+D) The learning rate  
+Correct Answer: B  
+""
+Q19: Which optimization technique is commonly used to solve the SVM problem?  
+A) Gradient descent  
+B) Lagrange multipliers and KKT conditions  
+C) Random search  
+D) Linear regression  
+Correct Answer: B  
+""
+Q20: Which of these is NOT an advantage of Linear SVM?  
+A) Works well in high-dimensional spaces  
+B) Sensitive to outliers in hard margin  
+C) Provides unique global solution  
+D) Memory efficient (uses only support vectors)  
+Correct Answer: B  
+""
+Q21: Which of the following is NOT an application of SVM?  
+A) Face recognition  
+B) Image classification  
+C) Movie recommendations  
+D) Spam detection  
+Correct Answer: C  
+""
+Q22: Which supervised learning model is used to estimate continuous values?  
+A) Classification  
+B) Clustering  
+C) Regression  
+D) Association  
+Correct Answer: C  
+""
+"Q23: In classification problems, the labels in the training set are:  "
+A) Continuous values  
+B) Unlabeled  
+C) Categorical values representing different classes  
+D) Randomly assigned  
+Correct Answer: C  
+""
+Q24: Which supervised learning algorithm is suitable for binary classification?  
+A) K-means  
+B) Linear Regression  
+C) Logistic Regression  
+D) Apriori Algorithm  
+Correct Answer: C  
+""
+Q25: Which statement about unsupervised learning is TRUE?  
+A) It requires labeled data  
+B) It discovers hidden patterns in data  
+C) It predicts future outputs based on past labels  
+D) It always provides discrete output labels  
+Correct Answer: B  
+""
+Q26: What is an example of an association problem in unsupervised learning?  
+A) Grouping customers by behavior  
+B) Predicting stock prices  
+C) Finding customers who buy both item X and Y  
+D) Classifying emails as spam or not  
+Correct Answer: C  
+""
+Q27: Reinforcement learning primarily uses which method?  
+A) Supervised training  
+B) Clustering  
+C) Trial and error with feedback from environment  
+D) Unlabeled data exploration  
+Correct Answer: C  
+""
+Q28: What is the purpose of features in a machine learning system?  
+A) To label the data  
+B) To extract relevant characteristics from raw data  
+C) To store raw information  
+D) To predict outcomes directly  
+Correct Answer: B  
+""
+Q29: Which of these is a criterion used in evaluation of machine learning models?  
+A) Labels  
+B) Features  
+C) Accuracy  
+D) Raw data  
+Correct Answer: C  
+""
+Q30: Which algorithm below is most suited for classification of textual data like spam detection?  
+A) Linear Regression  
+B) Logistic Regression  
+C) K-means clustering  
+D) Apriori Algorithm  
+Correct Answer: B  
+""
+Q31: Which of the following best describes “training” in machine learning?  
+A) Applying a trained model to new data  
+B) Feeding data to the model to adjust its parameters  
+C) Collecting the raw data  
+D) Labeling the data  
+Correct Answer: B  
+""
+Q32: What does KNN stand for in machine learning?  
+A) K-nearest neighbors  
+B) Kernel nearest nodes  
+C) Key network nodes  
+D) Knowledge network nodes  
+Correct Answer: A  
+""
+Q33: What type of problem is “customer segmentation” an example of?  
+A) Classification  
+B) Regression  
+C) Clustering  
+D) Association  
+Correct Answer: C  
+""
+"Q34: In linear regression, the line of best fit:  "
+A) Maximizes the distance to points  
+B) Minimizes the sum of squared errors between predicted and actual values  
+C) Randomly fits the data  
+D) Uses clustering technique  
+Correct Answer: B  
+""
+"Q35: In the given Python code for linear regression, what does `model.fit(X, y)` do?  "
+A) Predicts values based on X  
+B) Trains the model on inputs X and outputs y  
+C) Prints the predicted values  
+D) Creates features from raw data  
+Correct Answer: B  
+""
+Q36: What is the output of logistic regression when predicting?  
+A) Exact numeric values  
+B) Class labels or probabilities between 0 and 1  
+C) Clusters in data  
+D) Random guesses  
+Correct Answer: B  
+""
+Q37: Which supervised learning algorithm would you NOT typically use for regression?  
+A) Linear Regression  
+B) Support Vector Regression  
+C) Logistic Regression  
+D) Ridge Regression  
+Correct Answer: C  
+""
+Q38: Which statement about decision trees is CORRECT?  
+A) They are unsupervised learning algorithms  
+B) They can be used for both regression and classification  
+C) They predict probabilities only  
+D) They require input features to be clustered first  
+Correct Answer: B  
+""
+Q39: What is the main purpose of regularization in SVM?  
+A) To increase the training error  
+B) To control the trade-off between margin size and classification errors  
+C) To increase computational cost  
+D) To eliminate the need for support vectors  
+Correct Answer: B  
+""
+"Q40: In SVM, what does a “hard margin” mean?  "
+A) Allowing many misclassifications  
+B) No tolerance to misclassifications; perfect separation required  
+C) Using nonlinear kernels  
+D) Using soft clustering instead of classification  
+Correct Answer: B  
+""
+Q41: Which of the following metrics is NOT commonly used in evaluating classification models?  
+A) Accuracy  
+B) Precision  
+C) Mean squared error  
+D) Recall  
+Correct Answer: C  
+""
+Q42: Which machine learning technique is best suited for detecting fraudulent transactions?  
+A) Supervised learning with classification algorithms  
+B) Unsupervised clustering  
+C) Logistic regression only  
+D) Simple linear regression  
+Correct Answer: A  
+""
+Q43: Which of the following is NOT an example of a supervised learning algorithm?  
+A) Random Forest  
+B) Naive Bayes  
+C) Apriori Algorithm  
+D) K-nearest neighbor  
+Correct Answer: C  
+""
+Q44: Which of these are common applications of machine learning in healthcare?  
+"A) Disease diagnosis, medical imaging, drug discovery  "
+B) Self-driving cars and traffic prediction  
+C) Chatbots and sentiment analysis  
+D) Spam email detection  
+Correct Answer: A  
+""
+Q45: What does the term 'features' mean in ML?  
+A) Outputs of the model  
+B) The independent variables or attributes derived from raw data  
+C) The error function  
+D) The predicted label of the data  
+Correct Answer: B  
+""
+Q46: When is logistic regression preferred over linear regression?  
+A) When predicting continuous numeric variables  
+B) When the output is categorical/binary  
+C) When the data is unlabeled  
+D) For clustering similar data points  
+Correct Answer: B  
+""
+Q47: What kind of algorithm is Random Forest?  
+A) Unsupervised clustering  
+B) Ensemble method for classification and regression  
+C) Linear regression variant  
+D) Reinforcement learning algorithm  
+Correct Answer: B  
+""
+Q48: What is the primary role of the training dataset in ML?  
+A) To label the test data  
+B) To build and train the model by adjusting parameters  
+C) To make final predictions  
+D) To perform final evaluation  
+Correct Answer: B  
+""
+"Q49: In the context of supervised learning, what does ""inference"" refer to?  "
+A) Training a model  
+B) Evaluating the model on training data  
+"C) Applying the trained model to new, unseen data  "
+D) Labeling data  
+Correct Answer: C  
+""
+Q50: Which statement best summarizes the goal of supervised learning?  
+A) To find hidden structures in unlabeled data  
+B) To learn a mapping function from input x to output y based on labeled examples  
+C) To maximize rewards via trial-and-error interactions  
+D) To choose random output classes  
+Correct Answer: B
